@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+
+/* automatic vendor prefixes */
+.flex {
+  display: flex;
+}
+
+/* custom properties & var() */
+:root {
+  --mainColor: red;
+}
+.a1 {
+  color: var(--mainColor);
+}
+
+/* custom properties set & @apply */
+:root {
+  --danger-theme: {
+    color: white;
+    background-color: red;
+  };
+}
+.danger {
+  @apply --danger-theme;
+}
+
+/* nesting */
+.a2 {
+  /* direct nesting (& MUST be the first part of selector)*/
+  & span {
+    color: white;
+    font-size: .75rem;
+  }
+
+  /* @nest rule (for complex nesting) */
+  @nest span & {
+    color: blue;
+    font-size: .875rem;
+  }
+
+  &.link {
+    text-decoration: underline;
+  }
+  &__span {
+    font-size: 2rem;
+  }
+  &__span--active {
+    color: #f60;
+  }
+
+  /* media query automatic nesting */
+  @media (min-width: 30em) {
+    color: yellow;
+    font-size: 1rem;
+  }
+}

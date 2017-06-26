@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #333;
+  font-size: .875rem;
+  line-height: 20px;
+}
+
+h1 {
+  color: #f60;
+  line-height: 1.875rem;
+  font-size: 1.375rem;
+}
+hr {
+  margin: 20px 0;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url(./assets/fonts/glyphicons-halflings-regular.eot);
+  src: url(./assets/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(./assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(./assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(./assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(./assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-minus:before {
+  content: "\2212";
+}
+.glyphicon-cloud:before {
+  content: "\2601";
+}
+
+.glyphicon {
+  font-size: 1rem;
+}
+
+.bg-big {
+  width: 400px;
+  height: 400px;
+  background: url(./assets/imgs/bg-big.png) center center no-repeat;
+}
+.bg-small {
+  width: 400px;
+  height: 40px;
+  background: url(./assets/imgs/bg-small.png) center center repeat;
+}

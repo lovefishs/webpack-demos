@@ -1,0 +1,20 @@
+@import './normalize.css';
+
+.g-text {
+  color: #777;
+  font-size: 24px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 600;
+}
+
+.pre {
+  font-size: 1rem;
+}
+
+pre {
+  font-family: monospace;
+}
+
+hr {
+  margin: 10px 0;
+}

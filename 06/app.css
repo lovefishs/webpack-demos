@@ -1,0 +1,60 @@
+/* https://github.com/css-modules/css-modules */
+/* https://css-modules.github.io/webpack-demo */
+
+/* 需要 预处理器 支持(eg: less)
+:global {
+  .g-text {}
+}
+*/
+:global(hr) {
+  margin: 10px 0;
+}
+:global(.g-text) {
+  color: #777;
+  font-size: 24px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 600;
+}
+
+.root {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #777;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.root :global .g-text {
+  color: brown;
+}
+
+.class-name {
+  color: green;
+  background: red;
+}
+.other-class-name {
+  composes: class-name;
+  color: yellow;
+}
+
+.b__e--m {
+  margin: 10px 0;
+  color: #333;
+}
+.other-b__e--m {
+  composes: b__e--m;
+  color: #f60;
+  font-size: 20px;
+}
+
+.root2 {
+  composes: box from './layout.css';
+  border-style: dotted;
+  border-color: green;
+}
+
+.text2 {
+  composes: heading from './typography.css';
+  font-weight: 200;
+  color: green;
+}

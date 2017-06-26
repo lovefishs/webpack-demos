@@ -1,4 +1,4 @@
-# webpack3 demos
+# webpack demos
 
 webapck3 + react
 

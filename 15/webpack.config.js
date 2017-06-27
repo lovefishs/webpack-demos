@@ -56,7 +56,7 @@ module.exports = {
     }),
     new CommonsChunkPlugin({
       name: 'manifest',
-      chunks: ['index', 'home'],
+      chunks: ['vendor', 'common', 'index', 'home'],
     }),
 
     new HtmlWebpackPlugin({

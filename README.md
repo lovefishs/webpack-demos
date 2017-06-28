@@ -10,10 +10,21 @@ webpack 默认配置文件 `webpack.config.js`
 * `webpack -p` – 发布(快捷键，相当于 `--optimize-minimize --define process.env.NODE_ENV="production"`)
 * `webpack -d` – 包含 source maps 方便调试(快捷键，相当于 `--debug --devtool eval-cheap-module-source-map --output-pathinfo`)
 
-## 依赖
+## 环境依赖
 
 * Node.js v8+
 * npm v5+
+
+## 安装
+
+```bash
+$ git clone git@192.168.1.121:front-end/webpack-demos.git
+$ cd webpack-demos
+$ npm install
+$ npm run demo-01
+$ npm run demo-02
+$ ...
+```
 
 ## 目录
 

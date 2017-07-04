@@ -30,6 +30,8 @@ module.exports = {
             loader: 'babel-loader',
             options: {
               presets: [['env', {modules: false}], 'react'],
+              // presets: ['react'],
+              // plugins: ['syntax-dynamic-import', 'transform-class-properties'],
               plugins: ['transform-runtime', 'syntax-dynamic-import', 'transform-class-properties'],
               // transform-runtime 会导致体积增大 70+KB (未压缩)
             },

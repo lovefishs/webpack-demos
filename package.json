@@ -26,9 +26,14 @@
     "demo-19": "webpack --config ./19/webpack.config.js --display-optimization-bailout",
     "demo-20": "webpack --config ./20/webpack.config.js -w",
     "demo-21": "webpack-dev-server --config ./21/webpack.config.js",
+    "demo-22": "webpack --config ./22/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "changming.huang@woqutech.com",
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 5.0.0"
+  },
   "license": "ISC",
   "browserslist": [
     "> 1%",

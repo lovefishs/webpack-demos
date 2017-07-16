@@ -31,7 +31,7 @@ module.exports = {
     publicPath: publicPath,
   },
   resolve: {
-    modules: [resolve(__dirname, './src'), 'node_modules'],
+    modules: [resolve(__dirname, './src'), resolve(__dirname, '../node_modules')],
     mainFields: ['jsnext:main', 'main'],
     extensions: ['.js', '.jsx', '.json'],
   },
@@ -39,7 +39,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /(node_modules|bower_components)/,
+        include: resolve(__dirname, './src'),
         use: [
           {
             loader: 'babel-loader',

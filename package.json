@@ -26,6 +26,8 @@
     "demo-20": "webpack --config ./20/webpack.config.js -w",
     "demo-21": "webpack-dev-server --config ./21/webpack.config.js",
     "demo-22": "webpack-dev-server --config ./22/webpack.config.js",
+    "demo-23": "webpack --config ./23/webpack.config.js",
+    "demo-23-2": "webpack --config ./23/webpack.config.js --optimize-minimize",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "changming.huang@woqutech.com",

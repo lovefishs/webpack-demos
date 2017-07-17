@@ -1,0 +1,27 @@
+{
+  "name": "webpack-numbers",
+  "version": "1.0.0",
+  "description": "Webpack library example",
+  "main": "lib/webpack-numbers.js",
+  "scripts": {
+    "build": "webpack --optimize-minimize",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-library",
+    "bundling",
+    "library"
+  ],
+  "author": "changming.huang@woqutech.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.6.0",
+    "webpack": "3.3.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
+  }
+}

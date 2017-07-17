@@ -22,7 +22,7 @@ module.exports = {
   },
   resolve: {
     modules: [resolve(__dirname, './src'), resolve(__dirname, './node_modules')],
-    mainFields: ['jsnext:main', 'main'],
+    mainFields: ['jsnext:main', 'module', 'main'],
     extensions: ['.js', '.json'],
   },
   module: {

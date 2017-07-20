@@ -2,14 +2,6 @@
 
 webapck3 + react
 
-webpack 默认配置文件 `webpack.config.js`
-
-* `webpack <entry> [<entry>] <output>` – 构建文件
-* `webpack -w` – 监听项目
-* `webpack --colors` – 命令行输出带颜色
-* `webpack -p` – 发布(快捷键，相当于 `--optimize-minimize --define process.env.NODE_ENV="production"`)
-* `webpack -d` – 包含 source maps 方便调试(快捷键，相当于 `--debug --devtool eval-cheap-module-source-map --output-pathinfo`)
-
 ## 环境依赖
 
 * Node.js v8+
@@ -18,7 +10,7 @@ webpack 默认配置文件 `webpack.config.js`
 ## 安装
 
 ```bash
-$ git clone git@192.168.1.121:front-end/webpack-demos.git
+$ git clone https://github.com/lovefishs/webpack-demos.git
 $ cd webpack-demos
 $ npm install
 $ npm run demo-01
@@ -52,3 +44,10 @@ $ ...
 * [22](/22) React HMR(Hot Module Replacement)
 * [23](/23) Tree Shaking
 * [24](/24) 创建 Library
+
+## 简单介绍
+
+![Webpack 思维导图][1]
+
+[1]: https://raw.githubusercontent.com/lovefishs/webpack-demos/master/webpack.png
+

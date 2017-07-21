@@ -1,10 +1,5 @@
-import $ from 'jquery'
+import moduleA from './moduleA'
+import moduleB from './moduleB'
 
-import './module1'
-import './module2'
-
-$(document).ready(function () {
-  console.log('document ready')
-
-  $('#root').html(new Date().toString())
-})
+moduleA()
+moduleB()

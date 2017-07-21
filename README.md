@@ -38,7 +38,7 @@ $ ...
 * [16](/16) Code Splitting - Async
 * [17](/17) Code Splitting - Async(async/await)
 * [18](/18) 外部扩展(externals)
-* [19](/19) 作用域提升(ModuleConcatenationPlugin)
+* [19](/19) Scope Hoisting(作用域提升，ModuleConcatenationPlugin)
 * [20](/20) Devtool
 * [21](/21) HMR(Hot Module Replacement)
 * [22](/22) React HMR(Hot Module Replacement)

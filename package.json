@@ -30,6 +30,8 @@
     "demo-23": "webpack --config ./23/webpack.config.js",
     "demo-23-2": "webpack --config ./23/webpack.config.js --optimize-minimize",
     "demo-24": "webpack --config ./24/webpack.config.js --optimize-minimize",
+    "demo-25": "webpack --config ./25/webpack.config.js",
+    "demo-25-2": "NODE_ENV=production webpack --config ./25/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "changming.huang@woqutech.com",
@@ -57,6 +59,7 @@
     "babel-plugin-transform-runtime": "6.23.0",
     "babel-preset-env": "1.6.0",
     "babel-preset-react": "6.24.1",
+    "compression-webpack-plugin": "1.0.0",
     "css-loader": "0.28.4",
     "extract-text-webpack-plugin": "3.0.0",
     "file-loader": "0.11.2",

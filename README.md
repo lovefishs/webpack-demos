@@ -44,6 +44,7 @@ $ ...
 * [22](/22) React HMR(Hot Module Replacement)
 * [23](/23) Tree Shaking
 * [24](/24) 创建 Library
+* [25](/25) Enabled gzip(compression-webpack-plugin)
 
 ## 简单介绍
 

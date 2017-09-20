@@ -29,6 +29,7 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
+              babelrc: false, // 指定不使用 .babelrc 文件配置(在存在 .babelrc 文件的情况下，会造成冲突)
               presets: [['env', { modules: false }], 'react'],
               plugins: ['react-hot-loader/babel', 'transform-runtime', 'syntax-dynamic-import', 'transform-class-properties'],
             },

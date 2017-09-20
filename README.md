@@ -45,8 +45,17 @@ $ ...
 * [23](/23) Tree Shaking
 * [24](/24) 创建 Library
 * [25](/25) Enabled gzip(compression-webpack-plugin)
+* [26](/26) 服务端代码打包
 
 ## 简单介绍
+
+所有的 webpack 配置都是基于 `webpack.config.js` 文件。
+
+### 01 - 单模块入口
+
+这是 webpack 最简单的使用方式，在 `entry` 中指定入口模块，在 `output` 设置好输出路径(`filename` 也可以省略)。
+
+## Mind Map
 
 ![Webpack 思维导图][1]
 
